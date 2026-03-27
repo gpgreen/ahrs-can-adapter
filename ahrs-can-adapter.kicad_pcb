@@ -1444,6 +1444,7 @@
 		(property "Reference" "H4"
 			(at 4.125 0.05 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "a93cbe7d-667c-447a-bea8-aabcd55a3f17")
 			(effects
 				(font
@@ -2474,6 +2475,7 @@
 		(property "Reference" "H1"
 			(at 4.125 0.075 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "1fd15716-280c-4b3d-96d5-d0b528ebbd55")
 			(effects
 				(font
@@ -4249,7 +4251,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
 		(layer "F.Cu")
 		(uuid "49db9abf-ea2d-4c69-b02a-9dbe3e51292c")
-		(at 162.925 110.395)
+		(at 162.925 110.435)
 		(descr "SMD pad as test Point, diameter 2.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP4"
@@ -4497,7 +4499,7 @@
 		(at 135.130092 71.064836)
 		(descr "Push Button - Momentary, SMD")
 		(property "Reference" "SW1"
-			(at -0.280035 -3.374873 0)
+			(at 6.319908 -0.039836 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "25ec24a7-18f2-4062-a4ab-4c0bd77fe8c2")
@@ -4549,6 +4551,28 @@
 		(path "/e2f3692f-d399-41cd-a521-5aaaf576f02a")
 		(sheetname "/")
 		(sheetfile "ahrs-can-adapter.kicad_sch")
+		(fp_rect
+			(start -4.74 -2.9)
+			(end 4.1402 2.6416)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "8a9948c8-a638-4178-9397-db9751b77f70")
+		)
+		(fp_rect
+			(start -4.8 -3)
+			(end 4.2 2.8)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "d3f09f3d-4133-4214-9c0a-6c83bdd3c006")
+		)
 		(pad "1" smd rect
 			(at -3.379978 -1.979676)
 			(size 1.800098 1.100074)
@@ -5290,6 +5314,7 @@
 		(property "Reference" "H3"
 			(at -4.075 0.125 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "adbf2371-d320-41bf-9849-833f040d9901")
 			(effects
 				(font
@@ -9149,6 +9174,7 @@
 		(property "Reference" "H2"
 			(at -4.2 0.125 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "55a568ad-6a31-4139-a62b-cdf572bb2b1c")
 			(effects
 				(font
